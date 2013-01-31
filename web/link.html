@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+  </head>
+  <body>
+  <element name="x-link" extends="div" constructor="LinkComponent">
+    <template>
+        <div>
+          <input type="text" id="link" placeholder="link" onblur="setPreview()">
+          <input type="text" id="title" placeholder="titolo">
+          <button type="submit" text="+ Add" id="add"></button><br/>
+          <iframe src="{{preview}}"></iframe>
+        </div>
+    </template>
+    <script type="application/dart" src="link.dart">
+    </script>
+  </element>
+  </body>
+</html>

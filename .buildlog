@@ -1,0 +1,2445 @@
+---
+build.dart 
+Dart_Invoke: did not find top-level function 'main'.
+build.dart finished [54 ms]
+
+---
+build.dart --changed=web/prova.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      TreeBuilder.elementInScope (package:html5lib/src/treebuilder.dart:134:36)\n#4      InBodyPhase.startTagCloseP (package:html5lib/parser.dart:1332:28)\n#5      InBodyPhase.processStartTag (package:html5lib/parser.dart:1115:30)\n#6      HtmlParser.mainLoop (package:html5lib/parser.dart:333:48)\n#7      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#8      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#9      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#10     parseHtml (package:web_ui/src/compiler.dart:35:30)\n#11     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#12     time (package:web_ui/src/utils.dart:38:24)\n#13     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#14     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#15     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            -- 127 ms
+build.dart finished [379 ms]
+
+---
+build.dart --changed=web/main.html --changed=web/prova.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      TreeBuilder.elementInScope (package:html5lib/src/treebuilder.dart:134:36)\n#4      InBodyPhase.startTagCloseP (package:html5lib/parser.dart:1332:28)\n#5      InBodyPhase.processStartTag (package:html5lib/parser.dart:1115:30)\n#6      HtmlParser.mainLoop (package:html5lib/parser.dart:333:48)\n#7      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#8      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#9      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#10     parseHtml (package:web_ui/src/compiler.dart:35:30)\n#11     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#12     time (package:web_ui/src/utils.dart:38:24)\n#13     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#14     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#15     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            -- 133 ms
+build.dart finished [437 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      TreeBuilder.elementInScope (package:html5lib/src/treebuilder.dart:134:36)\n#4      InBodyPhase.startTagCloseP (package:html5lib/parser.dart:1332:28)\n#5      InBodyPhase.processStartTag (package:html5lib/parser.dart:1115:30)\n#6      HtmlParser.mainLoop (package:html5lib/parser.dart:333:48)\n#7      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#8      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#9      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#10     parseHtml (package:web_ui/src/compiler.dart:35:30)\n#11     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#12     time (package:web_ui/src/utils.dart:38:24)\n#13     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#14     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#15     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            -- 147 ms
+build.dart finished [397 ms]
+
+---
+build.dart --removed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/main.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            --  80 ms
+build.dart finished [330 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      InBodyPhase.endTagOther (package:html5lib/parser.dart:1923:41)\n#4      InBodyPhase.processEndTag (package:html5lib/parser.dart:1200:36)\n#5      HtmlParser.mainLoop (package:html5lib/parser.dart:336:46)\n#6      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#7      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#8      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#9      parseHtml (package:web_ui/src/compiler.dart:35:30)\n#10     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#11     time (package:web_ui/src/utils.dart:38:24)\n#12     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#13     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#14     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            -- 138 ms
+build.dart finished [387 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      InBodyPhase.endTagOther (package:html5lib/parser.dart:1923:41)\n#4      InBodyPhase.processEndTag (package:html5lib/parser.dart:1200:36)\n#5      HtmlParser.mainLoop (package:html5lib/parser.dart:336:46)\n#6      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#7      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#8      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#9      parseHtml (package:web_ui/src/compiler.dart:35:30)\n#10     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#11     time (package:web_ui/src/utils.dart:38:24)\n#12     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#13     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#14     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            -- 141 ms
+build.dart finished [399 ms]
+
+---
+build.dart --changed=web/prova.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      InBodyPhase.endTagOther (package:html5lib/parser.dart:1923:41)\n#4      InBodyPhase.processEndTag (package:html5lib/parser.dart:1200:36)\n#5      HtmlParser.mainLoop (package:html5lib/parser.dart:336:46)\n#6      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#7      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#8      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#9      parseHtml (package:web_ui/src/compiler.dart:35:30)\n#10     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#11     time (package:web_ui/src/utils.dart:38:24)\n#12     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#13     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#14     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            -- 130 ms
+build.dart finished [426 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      TreeBuilder.elementInScope (package:html5lib/src/treebuilder.dart:134:36)\n#4      InBodyPhase.startTagCloseP (package:html5lib/parser.dart:1332:28)\n#5      InBodyPhase.processStartTag (package:html5lib/parser.dart:1115:30)\n#6      HtmlParser.mainLoop (package:html5lib/parser.dart:333:48)\n#7      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#8      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#9      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#10     parseHtml (package:web_ui/src/compiler.dart:35:30)\n#11     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#12     time (package:web_ui/src/utils.dart:38:24)\n#13     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#14     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#15     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            -- 157 ms
+build.dart finished [403 ms]
+
+---
+build.dart --removed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/main.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            --  74 ms
+build.dart finished [321 ms]
+
+---
+build.dart --changed=web/cazzo.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"error","params":{"file":"web/main.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/main.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/main.html                            --  82 ms
+build.dart finished [342 ms]
+
+---
+build.dart --changed=web/cazzo.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      InBodyPhase.endTagOther (package:html5lib/parser.dart:1923:41)\n#4      InBodyPhase.processEndTag (package:html5lib/parser.dart:1200:36)\n#5      HtmlParser.mainLoop (package:html5lib/parser.dart:336:46)\n#6      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#7      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#8      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#9      parseHtml (package:web_ui/src/compiler.dart:35:30)\n#10     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#11     time (package:web_ui/src/utils.dart:38:24)\n#12     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#13     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#14     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           -- 126 ms
+build.dart finished [453 ms]
+
+---
+build.dart --changed=web/cazzo.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      TreeBuilder.elementInScope (package:html5lib/src/treebuilder.dart:134:36)\n#4      InBodyPhase.startTagCloseP (package:html5lib/parser.dart:1332:28)\n#5      InBodyPhase.processStartTag (package:html5lib/parser.dart:1115:30)\n#6      HtmlParser.mainLoop (package:html5lib/parser.dart:333:48)\n#7      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#8      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#9      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#10     parseHtml (package:web_ui/src/compiler.dart:35:30)\n#11     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#12     time (package:web_ui/src/utils.dart:38:24)\n#13     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#14     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#15     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           -- 136 ms
+build.dart finished [388 ms]
+
+---
+build.dart --changed=web/cazzo.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      TreeBuilder.elementInScope (package:html5lib/src/treebuilder.dart:134:36)\n#4      InBodyPhase.startTagCloseP (package:html5lib/parser.dart:1332:28)\n#5      InBodyPhase.processStartTag (package:html5lib/parser.dart:1115:30)\n#6      HtmlParser.mainLoop (package:html5lib/parser.dart:333:48)\n#7      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#8      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#9      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#10     parseHtml (package:web_ui/src/compiler.dart:35:30)\n#11     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#12     time (package:web_ui/src/utils.dart:38:24)\n#13     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#14     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#15     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           -- 138 ms
+build.dart finished [382 ms]
+
+---
+build.dart --changed=web/cazzo.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'NoSuchMethodError : method not found: 'reversed'\nReceiver: GrowableObjectArray\nArguments: []'\nStack trace:\n#0      Object._noSuchMethod (dart:core-patch:1729:3)\n#1      Object.noSuchMethod (dart:core-patch:1730:25)\n#2      ListProxy.reversed (package:html5lib/src/list_proxy.dart:76:33)\n#3      TreeBuilder.elementInScope (package:html5lib/src/treebuilder.dart:134:36)\n#4      InBodyPhase.startTagCloseP (package:html5lib/parser.dart:1332:28)\n#5      InBodyPhase.processStartTag (package:html5lib/parser.dart:1115:30)\n#6      HtmlParser.mainLoop (package:html5lib/parser.dart:333:48)\n#7      HtmlParser._parse (package:html5lib/parser.dart:214:17)\n#8      HtmlParser._parse (package:html5lib/parser.dart:216:9)\n#9      HtmlParser.parse (package:html5lib/parser.dart:193:11)\n#10     parseHtml (package:web_ui/src/compiler.dart:35:30)\n#11     Compiler._parseHtmlFile.<anonymous closure>.<anonymous closure> (package:web_ui/src/compiler.dart:165:28)\n#12     time (package:web_ui/src/utils.dart:38:24)\n#13     Compiler._time (package:web_ui/src/compiler.dart:297:16)\n#14     Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:164:32)\n#15     _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           -- 132 ms
+build.dart finished [383 ms]
+
+---
+build.dart --removed=web/cazzo.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  78 ms
+build.dart finished [343 ms]
+
+---
+build.dart --changed=web/prova.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  72 ms
+build.dart finished [350 ms]
+
+---
+build.dart --changed=web/prova.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  84 ms
+build.dart finished [336 ms]
+
+---
+build.dart --clean
+
+build.dart finished [245 ms]
+
+---
+build.dart 
+
+build.dart finished [244 ms]
+
+---
+build.dart --changed=web/prova.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  75 ms
+build.dart finished [336 ms]
+
+---
+build.dart --changed=web/prova.dart
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  74 ms
+build.dart finished [331 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [237 ms]
+
+---
+build.dart --changed=web/prova.dart --changed=web/prova.html
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  88 ms
+build.dart finished [395 ms]
+
+---
+build.dart --changed=web/prova.dart
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  75 ms
+build.dart finished [324 ms]
+
+---
+build.dart --changed=pubspec.lock
+
+build.dart finished [292 ms]
+
+---
+build.dart --changed=web/prova.dart
+[{"method":"mapping","params":{"from":"web/cazzo.html","to":"web/out/cazzo.html"}}]
+[{"method":"error","params":{"file":"web/cazzo.html","message":"exception while reading file, original message:\n AsyncError: 'FileIOException: Cannot open file 'web/cazzo.html' (OS Error: No such file or directory, errno = 2)'\nStack trace:\n#0      _File.open.<anonymous closure> (dart:io:1193:9)\n#1      _ThenFuture._sendValue (dart:async:372:24)\n\n","line":1}}]
+Total time spent on web/cazzo.html                           --  77 ms
+build.dart finished [327 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 239 ms
+build.dart finished [495 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [278 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 210 ms
+build.dart finished [493 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [233 ms]
+
+---
+build.dart --changed=web/login.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 199 ms
+build.dart finished [520 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [223 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [237 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 210 ms
+build.dart finished [446 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [233 ms]
+
+---
+build.dart --removed=web/out/login.dart --removed=web/out/main.html --removed=web/out/main.html.dart --removed=...
+
+build.dart finished [244 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [281 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x36924d72<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object._noSuchMethod (dart:core-patch:1729:3)
+#1      Object.noSuchMethod (dart:core-patch:1730:25)
+#2      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#3      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#4      Messages.error (package:web_ui/src/messages.dart:108:17)
+#5      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#6      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#7      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x36924d72<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7238:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7246:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7254:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [730 ms]
+
+---
+build.dart --removed=web/out/login.dart --removed=web/out/main.html --removed=web/out/main.html.dart --removed=...
+
+build.dart finished [284 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [268 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 206 ms
+build.dart finished [454 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=web/out/main.html_bootstrap.dart
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart
+
+build.dart finished [238 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x36924d72<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object._noSuchMethod (dart:core-patch:1729:3)
+#1      Object.noSuchMethod (dart:core-patch:1730:25)
+#2      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#3      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#4      Messages.error (package:web_ui/src/messages.dart:108:17)
+#5      WebComponentEmitter.run (package:web_ui/src/emitters.dart:374:21)
+#6      Compiler._emitComponents (package:web_ui/src/compiler.dart:284:15)
+#7      Compiler._emit.<anonymous closure> (package:web_ui/src/compiler.dart:219:24)
+#8      time (package:web_ui/src/utils.dart:38:24)
+#9      Compiler._time (package:web_ui/src/compiler.dart:297:16)
+#10     Compiler._emit (package:web_ui/src/compiler.dart:216:12)
+#11     Compiler.run.<anonymous closure> (package:web_ui/src/compiler.dart:105:12)
+#12     _ThenFuture._sendValue (dart:async:372:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x36924d72<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7238:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7246:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7254:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [703 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 214 ms
+build.dart finished [465 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [235 ms]
+
+---
+build.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 215 ms
+build.dart finished [448 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [235 ms]
+
+---
+build.dart --removed=web/out/login.dart --removed=web/out/main.html --removed=web/out/main.html.dart --removed=...
+
+build.dart finished [301 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [251 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [455 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [238 ms]
+
+---
+build.dart --removed=web/out/login.dart --removed=web/out/main.html --removed=web/out/main.html.dart --removed=...
+
+build.dart finished [268 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [282 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 204 ms
+build.dart finished [446 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 214 ms
+build.dart finished [448 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [231 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 206 ms
+build.dart finished [451 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 214 ms
+build.dart finished [456 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [239 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 219 ms
+build.dart finished [495 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 247 ms
+build.dart finished [486 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [268 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [460 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [428 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 219 ms
+build.dart finished [453 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [276 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 231 ms
+build.dart finished [471 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [296 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 231 ms
+build.dart finished [1321 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 225 ms
+build.dart finished [462 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [256 ms]
+
+---
+build.dart --changed=web/login.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 216 ms
+build.dart finished [513 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [244 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 227 ms
+build.dart finished [463 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 223 ms
+build.dart finished [461 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [237 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 218 ms
+build.dart finished [454 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [241 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 234 ms
+build.dart finished [467 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [291 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 222 ms
+build.dart finished [452 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [222 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 235 ms
+build.dart finished [488 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [245 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 236 ms
+build.dart finished [485 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [350 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 250 ms
+build.dart finished [517 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [347 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 250 ms
+build.dart finished [501 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [267 ms]
+
+---
+build.dart --changed=web/login.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 229 ms
+build.dart finished [527 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [398 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 244 ms
+build.dart finished [523 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [302 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 228 ms
+build.dart finished [477 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [555 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 230 ms
+build.dart finished [504 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [253 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 216 ms
+build.dart finished [461 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=web/login.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 263 ms
+build.dart finished [559 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [461 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 218 ms
+build.dart finished [453 ms]
+
+---
+build.dart --changed=web/login.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/...
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 225 ms
+build.dart finished [469 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [224 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 229 ms
+build.dart finished [516 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [327 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 226 ms
+build.dart finished [514 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [226 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 224 ms
+build.dart finished [454 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [228 ms]
+
+---
+build.dart --removed=web/out/login.dart --removed=web/out/main.html --removed=web/out/main.html.dart --removed=...
+
+build.dart finished [237 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [273 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 230 ms
+build.dart finished [492 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [223 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 219 ms
+build.dart finished [527 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [224 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [240 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 236 ms
+build.dart finished [508 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [249 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 223 ms
+build.dart finished [480 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [242 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 227 ms
+build.dart finished [496 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [223 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 228 ms
+build.dart finished [481 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [432 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 221 ms
+build.dart finished [465 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [264 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [455 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [289 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 225 ms
+build.dart finished [464 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [275 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [458 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [234 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 227 ms
+build.dart finished [466 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [229 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 229 ms
+build.dart finished [485 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [253 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 235 ms
+build.dart finished [475 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [317 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [471 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [386 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 223 ms
+build.dart finished [478 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [289 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 219 ms
+build.dart finished [452 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 227 ms
+build.dart finished [512 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [254 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 229 ms
+build.dart finished [490 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [292 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 216 ms
+build.dart finished [448 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [258 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 227 ms
+build.dart finished [477 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [292 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 235 ms
+build.dart finished [477 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [249 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 232 ms
+build.dart finished [497 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [286 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 236 ms
+build.dart finished [469 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [269 ms]
+
+---
+build.dart --changed=web/login.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 212 ms
+build.dart finished [492 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 247 ms
+build.dart finished [492 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [310 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [476 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [456 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 219 ms
+build.dart finished [463 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [348 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 244 ms
+build.dart finished [486 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [348 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 243 ms
+build.dart finished [501 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [350 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 222 ms
+build.dart finished [477 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [243 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 223 ms
+build.dart finished [495 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [381 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 235 ms
+build.dart finished [482 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 244 ms
+build.dart finished [487 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [235 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 221 ms
+build.dart finished [484 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [264 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 234 ms
+build.dart finished [508 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [390 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 222 ms
+build.dart finished [460 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [244 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 223 ms
+build.dart finished [461 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [278 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 211 ms
+build.dart finished [441 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [239 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 224 ms
+build.dart finished [455 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [276 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [474 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [300 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 225 ms
+build.dart finished [471 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [487 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 261 ms
+build.dart finished [532 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [316 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 211 ms
+build.dart finished [555 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [245 ms]
+
+---
+build.dart --changed=web/login.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 227 ms
+build.dart finished [480 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [224 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [458 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 215 ms
+build.dart finished [464 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [332 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 215 ms
+build.dart finished [472 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [271 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 213 ms
+build.dart finished [507 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [229 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 226 ms
+build.dart finished [490 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [330 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 214 ms
+build.dart finished [456 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 207 ms
+build.dart finished [449 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [232 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 210 ms
+build.dart finished [449 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [229 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [258 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 215 ms
+build.dart finished [461 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [295 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 231 ms
+build.dart finished [1258 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [302 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 225 ms
+build.dart finished [480 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [231 ms]
+
+---
+build.dart 
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 250 ms
+build.dart finished [576 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [239 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 229 ms
+build.dart finished [503 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [234 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 220 ms
+build.dart finished [470 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [336 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [247 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 223 ms
+build.dart finished [471 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [227 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 299 ms
+build.dart finished [691 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [291 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 247 ms
+build.dart finished [501 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [272 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [346 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [253 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 251 ms
+build.dart finished [541 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [230 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 251 ms
+build.dart finished [512 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [238 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 223 ms
+build.dart finished [482 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [220 ms]
+
+---
+build.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 230 ms
+build.dart finished [469 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [238 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [226 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 239 ms
+build.dart finished [492 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 236 ms
+build.dart finished [470 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [242 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 221 ms
+build.dart finished [463 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [233 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 219 ms
+build.dart finished [477 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [241 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 224 ms
+build.dart finished [458 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [225 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 212 ms
+build.dart finished [474 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [218 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 211 ms
+build.dart finished [447 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [222 ms]
+
+---
+build.dart --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 226 ms
+build.dart finished [466 ms]
+
+---
+build.dart --changed=web/out/login.dart --changed=web/out/main.html --changed=web/out/main.html.dart --changed=...
+
+build.dart finished [235 ms]
+
+---
+build.dart --machine --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [564 ms]
+
+---
+build.dart --machine --removed=web/out/login.dart --removed=web/out/main.html --removed=web/out/main.html.dart ...
+
+build.dart finished [230 ms]
+
+---
+build.dart --machine --changed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [528 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [536 ms]
+
+---
+build.dart --machine --changed=web/login.dart --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [540 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [521 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [520 ms]
+
+---
+build.dart --machine --removed=web/login.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [563 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [534 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [522 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [520 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [535 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [533 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [514 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [543 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [542 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [602 ms]
+
+---
+build.dart --machine --changed=web/link.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [617 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [557 ms]
+
+---
+build.dart --machine --changed=web/link.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [563 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [569 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [533 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [519 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [539 ms]
+
+---
+build.dart --machine --changed=web/link.dart --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [607 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [557 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [538 ms]
+
+---
+build.dart --machine --changed=web/main.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [530 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [524 ms]
+
+---
+build.dart --machine --changed=web/login.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [567 ms]
+
+---
+build.dart --machine --changed=web/main.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+Stack Trace:
+#0      Object.noSuchMethod (dart:core-patch:1743:25)
+#1      Message.toJson (package:web_ui/src/messages.dart:72:26)
+#2      Messages.printMessage (package:web_ui/src/messages.dart:145:59)
+#3      Messages.error (package:web_ui/src/messages.dart:108:17)
+#4      Compiler._readError (package:web_ui/src/compiler.dart:179:20)
+#5      Compiler._parseHtmlFile.<anonymous closure> (package:web_ui/src/compiler.dart:168:38)
+#6      _CatchErrorFuture._sendError (dart:async:414:24)
+
+
+Unhandled exception:
+NoSuchMethodError : method not found: 'stringify'
+Receiver: Instance of '_LinkedHashMapImpl@0x23c35ea0<String, dynamic>'
+Arguments: [GrowableObjectArray]
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [538 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [227 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+'package:html5lib/src/encoding_parser.dart': Error: line 65 pos 14: class 'EncodingBytes' overrides function 'skip' of super class 'Iterable' with incompatible parameters
+  String skip([CharPreciate skipChars]) {
+             ^
+build.dart finished [347 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [218 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --changed=web/link.html --removed=web/login.html
+Unhandled exception:
+NoSuchMethodError : method not found: 'Path.fromNative'
+Receiver: Type: class 'Path'
+Arguments: []
+#0      _isGeneratedFile (package:web_ui/component_build.dart:80:33)
+#1      _isInputFile (package:web_ui/component_build.dart:90:27)
+#2      build.<anonymous closure> (package:web_ui/component_build.dart:53:63)
+#3      IterableMixinWorkaround.any (dart:collection:92:12)
+#4      List.any (dart:core-patch:1161:39)
+#5      build (package:web_ui/component_build.dart:53:43)
+#6      main (file:///home/biagio/dart/prova/build.dart:5:8)
+build.dart finished [234 ms]
+
+---
+build.dart --machine --changed=web/main.html
+Unhandled exception:
+NoSuchMethodError : method not found: 'Path.fromNative'
+Receiver: Type: class 'Path'
+Arguments: []
+#0      _isGeneratedFile (package:web_ui/component_build.dart:80:33)
+#1      _isInputFile (package:web_ui/component_build.dart:90:27)
+#2      build.<anonymous closure> (package:web_ui/component_build.dart:53:63)
+#3      IterableMixinWorkaround.any (dart:collection:92:12)
+#4      List.any (dart:core-patch:1161:39)
+#5      build (package:web_ui/component_build.dart:53:43)
+#6      main (file:///home/biagio/dart/prova/build.dart:5:8)
+build.dart finished [275 ms]
+
