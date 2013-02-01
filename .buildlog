@@ -3320,3 +3320,210 @@ build.dart --machine --removed=web/login.css
 
 build.dart finished [220 ms]
 
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+Stack Trace:
+#0      _File.throwIfError (dart:io:1403:7)
+#1      _File.fullPathSync (dart:io:1267:17)
+#2      symlinkPubPackages (package:web_ui/dwc.dart:145:58)
+#3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:78:38)
+#4      _ThenFuture._sendValue (dart:async:372:24)
+
+
+Unhandled exception:
+FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [781 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [216 ms]
+
+---
+build.dart --machine --changed=web/link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":"web/link.html","message":"template attribute is required when using if, instantiate, or iterate attributes.","line":12,"charStart":388,"charEnd":439}}]
+Uncaught Error: FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+Stack Trace:
+#0      _File.throwIfError (dart:io:1403:7)
+#1      _File.fullPathSync (dart:io:1267:17)
+#2      symlinkPubPackages (package:web_ui/dwc.dart:145:58)
+#3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:78:38)
+#4      _ThenFuture._sendValue (dart:async:372:24)
+
+
+Unhandled exception:
+FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [801 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+[{"method":"warning","params":{"file":"web/link.html","message":"template attribute is required when using if, instantiate, or iterate attributes.","line":12,"charStart":388,"charEnd":439}}]
+Uncaught Error: FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+Stack Trace:
+#0      _File.throwIfError (dart:io:1403:7)
+#1      _File.fullPathSync (dart:io:1267:17)
+#2      symlinkPubPackages (package:web_ui/dwc.dart:145:58)
+#3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:78:38)
+#4      _ThenFuture._sendValue (dart:async:372:24)
+
+
+Unhandled exception:
+FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [767 ms]
+
+---
+build.dart --machine --changed=web/link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Uncaught Error: FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+Stack Trace:
+#0      _File.throwIfError (dart:io:1403:7)
+#1      _File.fullPathSync (dart:io:1267:17)
+#2      symlinkPubPackages (package:web_ui/dwc.dart:145:58)
+#3      run.<anonymous closure>.<anonymous closure> (package:web_ui/dwc.dart:78:38)
+#4      _ThenFuture._sendValue (dart:async:372:24)
+
+
+Unhandled exception:
+FileIOException: Cannot retrieve full path for file 'web/packages' (OS Error: No such file or directory, errno = 2)
+#0      _FutureImpl._scheduleUnhandledError.<anonymous closure> (dart:async:300:9)
+#1      _Timer._createTimerHandler._handleTimeout (dart:io:7239:28)
+#2      _Timer._createTimerHandler._handleTimeout (dart:io:7247:7)
+#3      _Timer._createTimerHandler.<anonymous closure> (dart:io:7255:23)
+#4      _ReceivePortImpl._handleMessage (dart:isolate-patch:40:92)
+build.dart finished [786 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [217 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [273 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [222 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [222 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [212 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [245 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [326 ms]
+
+---
+build.dart --machine --changed=web/link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 221 ms
+build.dart finished [501 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [305 ms]
+
+---
+build.dart --machine --changed=web/link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 231 ms
+build.dart finished [536 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [239 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 225 ms
+build.dart finished [522 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [1167 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [320 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [231 ms]
+
+---
+build.dart --machine --changed=web/link.html
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 222 ms
+build.dart finished [465 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [246 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [250 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 241 ms
+build.dart finished [471 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [219 ms]
+
+---
+build.dart --machine --changed=web/link.dart
+[{"method":"mapping","params":{"from":"web/main.html","to":"web/out/main.html"}}]
+Total time spent on web/main.html                            -- 218 ms
+build.dart finished [500 ms]
+
+---
+build.dart --machine --changed=web/out/link.dart --changed=web/out/main.dart --changed=web/out/main.html --chan...
+
+build.dart finished [288 ms]
+

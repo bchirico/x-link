@@ -9,8 +9,9 @@
           <input type="text" id="link" placeholder="link" on-blur="setPreview()">
           <input type="text" id="title" placeholder="titolo">
           <button type="submit" text="+ Add" id="add"></button><br/>
-          <iframe src="{{preview}}"></iframe>
-          
+          <template instantiate="if isVisible">
+            <iframe src="{{preview}}"></iframe>
+          </template>
         </div>
     </template>
     <script type="application/dart" src="link.dart"></script>
