@@ -5,15 +5,16 @@
   <body>
   <element name="x-link" extends="div" constructor="LinkComponent">
     <template>
-        <div>
-          <input type="text" id="link" placeholder="link" onblur="setPreview()">
+        <div id="container">
+          <input type="text" id="link" placeholder="link" on-blur="setPreview()">
           <input type="text" id="title" placeholder="titolo">
           <button type="submit" text="+ Add" id="add"></button><br/>
           <iframe src="{{preview}}"></iframe>
+          
         </div>
     </template>
-    <script type="application/dart" src="link.dart">
-    </script>
+    <script type="application/dart" src="link.dart"></script>
+    <script type="application/javascript" src="packages/browser/dart.js"></script>
   </element>
   </body>
 </html>

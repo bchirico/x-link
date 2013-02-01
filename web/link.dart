@@ -3,9 +3,11 @@ import 'dart:html';
 
 class LinkComponent extends WebComponent {
   
-  void setPreview() {
+  var preview =  "";
+  
+  void setPreview(){
     var link = query('#link');
-    var preview = link.text;  
+    preview = link.value;
   }
   
 }

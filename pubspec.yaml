@@ -2,4 +2,5 @@ name: login
 description: A sample application
 dependencies:
   js: any
+  browser: any
   web_ui: any
